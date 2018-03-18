@@ -1,6 +1,6 @@
 
 var humanSpeed = 55/15,
-	machineSpeed = 25/15,
+	machineSpeed = 55/15,
 	projects = [],
 	humans = [],
 	machines = [],
@@ -17,19 +17,17 @@ $( document ).ready( function() {
 	humanRun();
 	machineRun();
 	$('.human-block').click(function(){
-		console.log('stop .human-block');
-		var index = $('.human-block').index(this);
-		humans[index].running = !humans[index].running;
-	});
+        console.log('stop .human-block');
+        var index = $('.human-block').index(this);
+        humans[index].running = !humans[index].running;
+    });
 
-	$('.machine-block').click(function(){
-		console.log('stop .machine-block');
-		var index = $('.machine-block').index(this);
-		machines[index].running = !machines[index].running;
-	});
+    $('.machine-block').click(function(){
+        console.log('stop .machine-block');
+        var index = $('.machine-block').index(this);
+        machines[index].running = !machines[index].running;
+    });
 });
-
-
 
 // Duplicate Images for Loop
 var initialize = function(){
