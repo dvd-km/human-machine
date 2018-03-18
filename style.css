@@ -70,3 +70,16 @@ h4 {
 .green {
 	background-color: rgb(117,201,166) !important;
 }
+
+/*IMAGES */
+
+#iteration-arrow-03{
+	opacity: 0;
+}
+#iteration-arrow-03:hover{
+	opacity: 1;
+	transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+}
