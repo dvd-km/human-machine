@@ -1,0 +1,72 @@
+body {
+	margin:0;
+}
+h2 {
+	font-family: sans-serif;
+	font-size: 4.8rem;
+	color: white;
+}
+h4 {
+	display: inline-block;
+	color: white !important;
+	margin:0;
+}
+.content{
+  width: 100vw;
+  left: 0;
+
+  position: fixed;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.contentwrapper{
+    white-space: nowrap;
+    position: relative;
+}
+/*.wrap{
+    display: inline-block;
+    margin-right: -4px;
+}*/
+.human-block	{
+	height: 80vh;
+	background-color: rgb(255,173,139);
+	-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.machine-block {
+	height: 20vh;
+	background-color: rgb(0,0,0);
+}
+
+.project-bilder{
+	width: 100%;
+	/*padding-bottom: 37.5%;*/
+	position: relative;
+}
+.project-bilder .container-inner{
+	position: absolute;
+	top: 0;
+	bottom:0;
+	left:0;
+	right:0;
+	overflow: hidden;
+}
+
+.project-bilder .track{
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.project-img{
+	/*height: 100%;*/
+	position: absolute;
+	/*top: 0;*/
+	display: block;
+}
+.green {
+	background-color: rgb(0,173,139) !important;
+}
