@@ -75,15 +75,27 @@
 		
 		<script type="text/javascript">
 			$( document ).ready( function() {
-				var soundArrow = document.createElement("audio");
-	      soundArrow.src="sounds/1inch.mp3";
-	      soundArrow.volume=0.10;
-	      soundArrow.autoPlay=false;
-	      soundArrow.preLoad=true; 
+				// var soundArrow = document.createElement("audio");
+	   //    soundArrow.src="sounds/1inch.mp3";
+	   //    soundArrow.volume=0.10;
+	   //    soundArrow.autoPlay=false;
+	   //    soundArrow.preLoad=true; 
 
-	      $("#iteration-arrow-03").click(function() {
-	          soundArrow.play();
-	      });
+	   //    $("#iteration-arrow-03").click(function() {
+	   //        soundArrow.play();
+	   //    });
+
+	      var sound97 = document.createElement("audio");
+	      sound97.src="sounds/TEvans_0097.wav";
+	      sound97.volume=0.20;
+	      sound97.autoPlay=false;
+	      sound97.preLoad=true; 
+	    
+		    setTimeout(function(){
+				  sound97.play();
+				}, 6000);
+
+
 	    });
 
 		</script>
